@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(5, 201, 184);
+}
+.heading-div{
+    border: 3px double black;
+    text-align: center;
+    margin: 25px 100px;
+}

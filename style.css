@@ -1,13 +1,37 @@
 body{
     background-color: rgb(5, 201, 184);
 }
-.heading-div{
+.container-header{
+    width: 800px;
+    height: 60px;
+    background-color: rgb(5, 201, 184);
+    margin-left: 190px;
+    margin-top: -140px;
+    padding: 30px;
+    position: fixed;
+    text-align: center;
     border: 3px double black;
+}
+.container{
+    width: 800px;
+    background-color: rgb(5, 201, 184);
+    margin-top: 140px;
+    margin-left: 160px;
+    padding: 40px
+
+}
+
+.heading-div{
     text-align: center;
     margin: 25px 100px;
 }
-form{
-    text-align: center;
+
+table{
+    margin: auto;
+    
+}
+table tr td{
+    padding: 7px 40px ;
 }
 .dob{
     width: 30px;
@@ -15,4 +39,16 @@ form{
 }
 .y{
 width: 50px !important;
+}
+.table{
+    border: 2px solid black;
+}
+.table, .table th, .table td{
+    border: 1px solid black;
+}
+
+.table th{
+    background-color: rgb(204, 105, 29);
+    line-height: 35px;
+    width: 500px;
 }

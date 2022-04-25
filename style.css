@@ -6,3 +6,13 @@ body{
     text-align: center;
     margin: 25px 100px;
 }
+form{
+    text-align: center;
+}
+.dob{
+    width: 30px;
+
+}
+.y{
+width: 50px !important;
+}
